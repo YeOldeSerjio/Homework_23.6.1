@@ -8,7 +8,7 @@ bot = telebot.TeleBot(TOKEN)
 keys = {
     "биткоин": "BTC",
     "эфириум": "ETH",
-    "доллар": "USD",
+    "рубль": "RUR",
 }
 
 @bot.message_handler(commands=['start', 'help'])
